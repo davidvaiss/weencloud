@@ -113,7 +113,6 @@
 
             <div class="input">
                 <input type="submit" value="Publicar">
-                <a href="sss"></a>
 
                 
             </div>
