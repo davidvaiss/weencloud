@@ -113,6 +113,7 @@
 
             <div class="input">
                 <input type="submit" value="Publicar">
+                
             </div>
         </form>
     </div>

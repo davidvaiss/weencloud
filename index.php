@@ -23,8 +23,8 @@
             <nav class="navbar">
                 <ul>
                    
-                    <li> <a href="registro/registro2.html">Registrarse</a></li>
-                    <li> <a href="Login/index.html">Iniciar sesion</a></li>
+                    <li> <a href="registro/registro2.php">Registrarse</a></li>
+                    <li> <a href="Login/index.php">Iniciar sesion</a></li>
                     <li> <a href="#servicios">Servicios</a></li>
                     <li> <a href="#contacto">Contactanos</a></li>
 
@@ -53,7 +53,7 @@
             <p>
                 Publica tu oferta en Ween Cloud, serán tus 5 minutos de hoy mejor invertidos
             </p>
-            <a href="PBTRAB/index1.html" class="btn-3">Ingresar</a>
+            <a href="PBTRAB/index1.php" class="btn-3">Ingresar</a>
         </div>
         <div class="service">
             <img src="IMG/icon2.svg" alt="">
@@ -61,7 +61,7 @@
             <p>
                 Si buscas trabajo ¡Ween Cloud es tu mejor aliado!
             </p>
-            <a href="BusTrabajo/index.html" class="btn-3">Ingresar</a>
+            <a href="BusTrabajo/index.php" class="btn-3">Ingresar</a>
         <!-- </div>
         <div class="service">
             <img src="IMG/icon3.svg" alt="">
