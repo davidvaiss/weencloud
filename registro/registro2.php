@@ -36,7 +36,7 @@
           </div>  
           <div class="input-box">
             <span class="details">contraseña </span>  
-            <input type="text" placeholder="Introduzca su contraseña" required>
+            <input type="password" placeholder="Introduzca su contraseña" required>
           </div>  
           <div class="input-box">
             <span class="details">Número de documento</span>  
@@ -44,7 +44,7 @@
           </div> 
           <div class="input-box">
             <span class="details">Confirmar contraseña</span>  
-            <input type="text" placeholder="Confirme su contraseña" required>
+            <input type="password" placeholder="Confirme su contraseña" required>
           </div>  
           <div class="input-box">
             <span class="details">Barrio</span>  
