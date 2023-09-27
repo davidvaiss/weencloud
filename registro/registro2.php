@@ -79,7 +79,7 @@
          </div>
         </div>
         <div class="button">
-          <input type="submit" value="Registrar" class="registrar">  
+          <input type="submit" value="Registrar" class="registrar" name="registro">   
         </div>
     </form>
 
