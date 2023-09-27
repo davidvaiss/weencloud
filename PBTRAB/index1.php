@@ -107,7 +107,7 @@
                 <label for="usuario">Cargo o Categoria</label>
                 <etiqueta  para =" usuario "></etiqueta >
                 <input  placeholder =" Ingresa tu cargo" type =" text " id =" usuario " >
-                
+
             </div>
             
 
