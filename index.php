@@ -103,7 +103,7 @@
 
                 <h3>Busca tu trabajo</h3>
                 <p>
-                    Encontraras las oportunidades de empleo, las cuales tienen una mayor facilidad de búsqueda, estamos proyectados a que el usuario se sienta bien a la hora de buscare empleo que mejor opcion que Ween Cloud...
+                    Encontraras las oportunidades de empleo, las cuales tienen una mayor facilidad de búsqueda, estamos proyectados a que el usuario se sienta bien a la hora de buscar empleo que mejor opcion que Ween Cloud...
                 ¡Nunca fue tan fácil encontrar empleo!.
  
                 </p>
