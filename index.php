@@ -15,7 +15,7 @@
     <header>
         <div class="menu container">
             <img src="IMG/clouds (1).png" alt="">
-            <a href="#" class="logo">Ween Cloud </a>
+            <a href="#" class="logo">Fidel </a>
             <input type="checkbox" id="menu">
             <label for="menu">
                 <img src="IMG/menu-btn.png" class="menu-icono" alt="">
