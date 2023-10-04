@@ -20,40 +20,48 @@
         <div class="user-details">
          <div class="input-box">
           <span class="details">Nombre completo</span>  
-          <input type="text" placeholder="Introduzca su nombre" required>
+          <input type="text" name="nombre" placeholder="Introduzca su nombre" required>
         </div>
+
         <div class="input-box">
             <span class="details">Email </span>  
-            <input type="text" placeholder="Introduzca su correo" required>
+            <input type="text" name="email" placeholder="Introduzca su correo" required>
           </div>  
+
           <div class="input-box">
             <span class="details">Número de teléfono</span>  
-            <input type="text" placeholder="Introduzca su numero de telefono" required>
-          </div>      
+            <input type="text" name="numero" placeholder="Introduzca su numero de telefono" required>
+          </div>    
+
           <div class="input-box">
             <span class="details">Tipo de documento</span>  
-            <input type="text" placeholder="Introduzca su tipo de documento" required>
+            <input type="text" name="documento" placeholder="Introduzca su tipo de documento" required>
           </div>  
+
           <div class="input-box">
             <span class="details">Contraseña </span>  
-            <input type="password" placeholder="Introduzca su contraseña" required>
-          </div>  
+            <input type="password" name="contraseña" placeholder="Introduzca su contraseña" required>
+          </div> 
+
           <div class="input-box">
             <span class="details">Número de documento</span>  
-            <input type="text" placeholder="Introduzca su número de documento" required>
+            <input type="text" name="nudocumento" placeholder="Introduzca su número de documento" required>
           </div> 
+
           <div class="input-box">
             <span class="details">Confirmar contraseña</span>  
-            <input type="password" placeholder="Confirme su contraseña" required>
-          </div>  
+            <input type="password" name="conficontraseña" placeholder="Confirme su contraseña" required>
+          </div>
+
           <div class="input-box">
             <span class="details">Barrio</span>  
-            <input type="text" placeholder="Introduzca el nombre de su barrio " required>
+            <input type="text" name="barrio" placeholder="Introduzca el nombre de su barrio " required>
           </div>  
+
           <div class="input-box">
             <span class="details">Rol</span>  
             
-            <select name="" id="">
+            <select name="rol" id="">
               <option value=""></option>
               <option value="">Empresario</option>
               <option value="">Vacante</option>
