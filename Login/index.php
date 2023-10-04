@@ -19,27 +19,35 @@
     </div>
 
 
-    <form class="formulario">
+    <form class="formulario" action="" method="POST">
         <div class="text-formulario">
             <h2>Ween Cloud</h2>
             <p>Inicia sesion con tu cuenta</p>
         </div>
-      
+
+<?php
+include("../conexion/conexion.php");
+?>
         <div class="input">
          <label for="Email">Email</label> 
-         <input placeholder="Ingresa tu Email" type="text" id="Email">
+         <input placeholder="Ingresa tu Email" name="email" type="text" id="Email">
         </div>
 
         <div class="input">
          <label for="Contraseña">Contraseña</label> 
-         <input placeholder="ingresa tu contraseña" type="password" id="Contraseña">
+         <input placeholder="ingresa tu contraseña" name="contraseña" type="password" id="Contraseña">
       </div>
-         <div class="password-olvidada">
+         <!-- <div class="password-olvidada">
             <a href="#">¿Olvidaste tu contraseña?</a>
-         </div>
+         </div> -->
          <div class="input">
-            <input type="submit" value="Ingresar">
+            <input type="submit" value="Ingresar" name="login">
+            <?php
+include("../controlador/controlador_login_usuario.php");
+
+            ?>
          </div>
+         
     </form>
   </div>
 
