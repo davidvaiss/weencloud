@@ -34,9 +34,9 @@
          <label for="Contraseña">Contraseña</label> 
          <input placeholder="ingresa tu contraseña" type="password" id="Contraseña">
       </div>
-         <div class="password-olvidada">
+         <!-- <div class="password-olvidada">
             <a href="#">¿Olvidaste tu contraseña?</a>
-         </div>
+         </div> -->
          <div class="input">
             <input type="submit" value="Ingresar">
          </div>
