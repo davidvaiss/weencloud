@@ -45,7 +45,7 @@
 
           <div class="input-box">
             <span class="details">Número de documento</span>  
-            <input type="text" name="nudocumento" placeholder="Introduzca su número de documento" required>
+            <input type="text" name="nu_documento" placeholder="Introduzca su número de documento" required>
           </div> 
 
           <div class="input-box">
@@ -59,7 +59,7 @@
           </div>  
 
           <div class="input-box">
-            <span class="details">Rol</span>  
+            <span class="details">Rol</span>
             
             <select name="rol" id="">
               <option value=""></option>
@@ -73,7 +73,7 @@
          <span class="gender-title">Género</span>
          <div class="category">
            <label for="">
-            <input type="checkbox" name="" id="">
+            <input type="checkbox" name="genero" id="">
             <span class="gender">Masculino</span>
            </label> 
            <label for="">
