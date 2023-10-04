@@ -18,16 +18,16 @@
 
     </div>
 
-<?php
-include("conexion/conexion.php")
-include("controlador/controlador_login_usuario.php")
-?>
-    <form class="formulario">
+
+    <form class="formulario" action="" method="POST">
         <div class="text-formulario">
             <h2>Ween Cloud</h2>
             <p>Inicia sesion con tu cuenta</p>
         </div>
-      
+
+<?php
+include("../conexion/conexion.php");
+?>
         <div class="input">
          <label for="Email">Email</label> 
          <input placeholder="Ingresa tu Email" name="email" type="text" id="Email">
@@ -42,7 +42,12 @@ include("controlador/controlador_login_usuario.php")
          </div> -->
          <div class="input">
             <input type="submit" value="Ingresar" name="login">
+            <?php
+include("../controlador/controlador_login_usuario.php");
+
+            ?>
          </div>
+         
     </form>
   </div>
 

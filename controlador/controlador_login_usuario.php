@@ -1,9 +1,9 @@
 <?php
 if (!empty($_POST["login"])) {
     if (empty($_POST["email"]) or empty($_POST["contraseña"])) {
-        echo 'uno de los camos esta vacio';
+        echo '<p>uno de los campos esta vacio</p>';
     } else {
-        
+
     }
 }
 ?>
