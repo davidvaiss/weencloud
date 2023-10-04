@@ -29,6 +29,12 @@
 include("../conexion/conexion.php");
 ?>
         <div class="input">
+         <label for="Email">Nombre de usuario</label> 
+         <input placeholder="Ingresa tu nombre" name="nombre" type="text" id="nombre">
+        </div>
+
+
+        <div class="input">
          <label for="Email">Email</label> 
          <input placeholder="Ingresa tu Email" name="email" type="text" id="Email">
         </div>
