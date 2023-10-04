@@ -20,7 +20,7 @@
         <div class="user-details">
          <div class="input-box">
           <span class="details">Nombre completo</span>  
-          <input type="text" name="nombre" placeholder="Introduzca su nombre" required>
+          <input type="text" name="nombrec" placeholder="Introduzca su nombre" required>
         </div>
 
         <div class="input-box">
