@@ -20,7 +20,7 @@
 
         </div>
 
-        <form class="formulario">
+        <form class="formulario" action="../controlador/controlador_Ptrabajo_usuario.php" method="POST   "> 
             <div class="texto-formulario">
                 <h2>Ween Cloud</h2>
                 <p>Informacion del Empleo</p>
