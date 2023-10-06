@@ -35,7 +35,7 @@
 
           <div class="input-box">
             <span class="details">Tipo de documento</span>  
-            <input type="text" name="documento" placeholder="Introduzca su tipo de documento" required>
+            <input type="text" name="tdocumento" placeholder="Introduzca su tipo de documento" required>
           </div>  
 
           <div class="input-box">
