@@ -15,7 +15,7 @@ if (!empty($_POST["registro"])) {
         $rol=$_POST("rol");
         $genero=$_POST("genero");
 
-        $sql=$conexion->query("insert into usuario(nomcom,email,numtel,pass,confirpass,genero,numdoc,tipdoc,barrio,rol)values('$nomcom','$email','$numtel',)");
+        $sql=$conexion->query("insert into usuario(nomcom,email,numtel,pass,confirpass,genero,numdoc,tipdoc,barrio,rol)values('$nomcom','$email','$numtel','$pass','$confirpass','$genero','$numdoc','$tipdoc','$barrio','$rol')");
     }
 }
 ?>
