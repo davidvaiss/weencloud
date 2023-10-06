@@ -1,4 +1,5 @@
 <?php
+include("../conexion/conexion.php");
 if (!empty($_POST["login"])) {
     if (empty($_POST["nombre"]) or empty($_POST["email"]) or empty($_POST["contraseña"])) {
         echo '<p>Uno de los campos esta vacio</p>';

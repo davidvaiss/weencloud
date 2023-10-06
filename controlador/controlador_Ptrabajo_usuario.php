@@ -14,6 +14,6 @@ else {
     $contrato=$_POST("contrato");
     $cargo_categoria=$_POST("cargo_categoria");
   
-    $sql=$conexion->query("insert into usuario(lugtrab,exp,salario,jornada,contrato,cargocategoria)values)('$lutrabajo','$experiencia','$salario','$jornada','$contrato','$cargo_categoria',)")
+    $sql=$conexion->query("insert into usuario(lugtrab,exp,salario,jornada,contrato,cargocategoria)values)('$lutrabajo','$experiencia','$salario','$jornada','$contrato','$cargo_categoria',)");
 }
 ?>

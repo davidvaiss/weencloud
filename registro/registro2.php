@@ -16,7 +16,7 @@
 <body>
     <div class="container">
         <div class="title">Registrarse</div>
-        <form action="#" style="display: flex; flex-wrap: wrap; justify-content: space-between; ">
+        <form action="../" style="display: flex; flex-wrap: wrap; justify-content: space-between; ">
         <div class="user-details">
          <div class="input-box">
           <span class="details">Nombre completo</span>  

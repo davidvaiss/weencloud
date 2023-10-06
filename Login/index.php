@@ -19,15 +19,13 @@
     </div>
 
 
-    <form class="formulario" action="" method="POST">
+    <form class="formulario" action="../controlador/controlador_login_usuario.php" method="POST">
         <div class="text-formulario">
             <h2>Ween Cloud</h2>
             <p>Inicia sesion con tu cuenta</p>
         </div>
 
-<?php
-include("../conexion/conexion.php");
-?>
+
         <div class="input">
          <label for="Email">Nombre de usuario</label> 
          <input placeholder="Ingresa tu nombre" name="nombre" type="text" id="nombre">
