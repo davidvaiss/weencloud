@@ -16,7 +16,7 @@
 <body>
     <div class="container">
         <div class="title">Registrarse</div>
-        <form action="../" style="display: flex; flex-wrap: wrap; justify-content: space-between; ">
+        <form action="../controlador/controlador_registro_usuario.php" style="display: flex; flex-wrap: wrap; justify-content: space-between; " method="POST">
         <div class="user-details">
          <div class="input-box">
           <span class="details">Nombre completo</span>  
@@ -62,9 +62,9 @@
             <span class="details">Rol</span>
             
             <select name="rol" id="">
-              <option value=""></option>
-              <option value="">Empresario</option>
-              <option value="">Vacante</option>
+              <option value="" disabled selected></option>
+              <option value="Empresario">Empresario</option>
+              <option value="Vacante">Vacante</option>
             </select>
           </div>   
         </div>

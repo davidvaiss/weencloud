@@ -26,10 +26,10 @@
         </div>
 
 
-        <div class="input">
+        <!-- <div class="input">
          <label for="Email">Nombre de usuario</label> 
          <input placeholder="Ingresa tu nombre" name="nombre" type="text" id="nombre">
-        </div>
+        </div> -->
 
 
         <div class="input">
