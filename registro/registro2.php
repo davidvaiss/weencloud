@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 
     <meta charset="UTF-8">
@@ -87,7 +87,11 @@
          </div>
         </div>
         <div class="button">
-          <input type="submit" value="Registrar" class="registrar" name="registro">   
+          <input type="submit" value="Registrar" class="registrar" name="registro">  
+          <?php
+include("../controlador/controlador_registro_usuario.php");
+
+            ?> 
         </div>
     </form>
 
