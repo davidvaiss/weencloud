@@ -28,13 +28,13 @@
             <div class="input">
                 <label for="usuario">Lugar Trabajo</label>
                 <etiqueta  para =" usuario "></etiqueta >
-                <input  placeholder =" Ingresa el Barrio" type =" text " id =" usuario " >
+                <input  placeholder =" Ingresa el Barrio" type =" text " name="lutrabajo" id =" usuario " >
                 
             </div>
 
             <div class="input">
                 <label for="usuario">Experiencia</label>
-                 <select name="" id="">
+                 <select name="Experiencia" id="">
                     <option value=""></option>
                     <option value="">1 año </option>
                     <option value=""> 2 años</option>
@@ -56,14 +56,14 @@
             <div class="input">
                 <label for="usuario"> Salario</label>
                 <etiqueta  para =" usuario "></etiqueta >
-                <input  placeholder =" ingresa tu salario" type =" text " id =" usuario " >
+                <input  placeholder =" ingresa tu salario" type =" text " name="salario" id =" usuario " >
                 
             </div>
 
 
             <div class="input">
                 <label for="usuario">Jornada</label>
-                 <select name="" id="">
+                 <select name="jornada" id="">
                     <option value=""></option>
                     <option value="">Tiempo Completo</option>
                     <option value="">Tiempo Parcial</option>
@@ -74,7 +74,7 @@
 
             <div class="input">
                 <label for="usuario">Contrato</label>
-                 <select name="" id="">
+                 <select name="contrato" id="">
                     <option value=""></option>
                     <option value="">Contrato Indefinido</option>
                     <option value="">Contrato Obra </option>
@@ -106,13 +106,13 @@
             <div class="input">
                 <label for="usuario">Cargo o Categoria</label>
                 <etiqueta  para =" usuario "></etiqueta >
-                <input  placeholder =" Ingresa tu cargo" type =" text " id =" usuario " >
+                <input  placeholder =" Ingresa tu cargo" type =" text " name="cargo_categoria" id =" usuario " >
 
             </div>
             
 
             <div class="input">
-                <input type="submit" value="Publicar">
+                <input type="submit" value="Publicar" name="ptra">
 
                 
             </div>
