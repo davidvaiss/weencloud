@@ -9,14 +9,24 @@ if (!empty($_POST["registro"])) {
         $numero=$_POST['numero'];
         $documento=$_POST['tdocumento'];
         $contraseña=$_POST['contraseña'];
+        $hash= password_hash($contraseña, PASSWORD_DEFAULT, [50]);
         $nu_documento=$_POST["nu_documento"];
         $conficontraseña=$_POST['conficontraseña'];
         $barrio=$_POST['barrio'];
         $rol=$_POST['rol'];
         $genero=$_POST['genero'];
+        
+        $msql = "SELECT * FROM registro WHERE email='$email'";
+        $result = $con->query($msql);
 
-        $sql=$con->query("INSERT INTO registro(nomcom,email,numtel,pass,confirpass,genero,numdoc,tipdoc,barrio,rol)VALUES('$nombrec','$email','$numero','$documento','$contraseña','$nu_documento','$conficontraseña','$barrio','$rol','$genero')");
+        if ($result->num_rows > 0) {
+            echo("El correo electrónico ya ha sido registrado. Intente iniciar sesión");
+        } else {
+
+        $sql=$con->query("INSERT INTO registro(nomcom,email,numtel,pass,confirpass,genero,numdoc,tipdoc,barrio,rol)VALUES('$nombrec','$email','$numero','$documento','$hash','$nu_documento','$conficontraseña','$barrio','$rol','$genero')");
         header('location: ../index.php');
+        }
     }
 }
+
 ?>

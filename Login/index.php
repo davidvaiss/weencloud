@@ -46,10 +46,6 @@
          </div> -->
          <div class="input">
             <input type="submit" value="Ingresar" name="login">
-            <?php
-include("../controlador/controlador_login_usuario.php");
-
-            ?>
          </div>
          
     </form>
