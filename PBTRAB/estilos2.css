@@ -29,7 +29,7 @@ body{
 }
 
 .imagen-formulario{
-    background-image: url(../IMG/PublicaTr.png);
+    background-image: url(.../IMG/PublicaTr.png);
     background-position: center center;
     background-size: cover;
     height: 200px;
