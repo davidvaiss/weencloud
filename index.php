@@ -165,6 +165,8 @@
                 </div>
                 <hr>
                 <div class="enlaces">
+
+                
                     <!-- <h3>Logo</h3> -->
                     <img src="IMG/astronaut.png" alt="">
                     <div class="enlace">
