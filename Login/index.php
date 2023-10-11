@@ -18,6 +18,11 @@
 
     </div>
 
+<?php
+include('../controlador/controlador_login_usuario.php');
+if (isset($_SESSION))
+
+?>
 
     <form class="formulario" action="../controlador/controlador_login_usuario.php" method="POST">
         <div class="text-formulario">

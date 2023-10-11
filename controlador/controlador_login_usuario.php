@@ -13,9 +13,16 @@ if (!empty($_POST["login"])) {
             $usuario = mysqli_fetch_assoc($resultado);
         }
             if (password_verify($contraseña, $usuario['pass'])) {
-                echo('HAS INICIADO BIEN');
+                // echo('HAS INICIADO BIEN');
                 header("location: ../index.php");
             }
+
+        else{
+            $_SESSION['maile']='Correo electronico o contraseña incorrecta';
+            header('location:../Login\index.php');
+        }    
+            
+    
     }
 }
 ?>
