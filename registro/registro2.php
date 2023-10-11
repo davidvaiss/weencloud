@@ -56,6 +56,9 @@
           <div class="input-box">
             <span class="details">Barrio</span>  
             <input type="text" name="barrio" placeholder="Introduzca el nombre de su barrio " required>
+
+
+            
           </div>  
 
           <div class="input-box">
@@ -66,10 +69,35 @@
               <option value="Empresario">Empresario</option>
               <option value="Vacante">Vacante</option>
             </select>
+          </div>
+          
+          <div class="input-box">
+            <span class="details">Genero</span>
+            
+            <select name="genero" id="">
+              <option value="" disabled selected></option>
+              <option value="Masculino">Masculino</option>
+              <option value="Femenino">Femenino</option>
+              <option value="Prefiero no decirlo">Prefiero no decirlo</option>
+            </select>
           </div>   
         </div>
 
-         <div class="gender-details">
+
+
+
+        <!-- <div class="input-box">
+            <span class="details">Genero</span>
+            
+            <select name="genero" id="">
+              <option value="" disabled selected></option>
+              <option value="Masculino">Masculino</option>
+              <option value="Femenino">Femenino</option>
+              <option value="Prefiero no decirlo">Prefiero no decirlo</option>
+            </select>
+          </div>    -->
+
+         <!-- <div class="gender-details">
          <span class="gender-title">Género</span>
          <div class="category">
            <label for="">
@@ -85,7 +113,7 @@
             <span class="gender">Prefiero no decirlo</span>
            </label> 
          </div>
-        </div>
+        </div> -->
         <div class="button">
           <input type="submit" value="Registrar" class="registrar" name="registro">  
           <?php
