@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background-image: url(IMG/hero.svg);
+    background-image: url(../IMG/hero.svg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;

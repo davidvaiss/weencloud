@@ -30,10 +30,8 @@ body{
 
 .imagen-formulario{
     background-image: url(../IMG/PublicaTr.png);
-    background-position: center center;
+    background-position: center;
     background-size: cover;
-    height: 200px;
-    flex: 0 0 calc(60%);
     position: relative;
 
 }
