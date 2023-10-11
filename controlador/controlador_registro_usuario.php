@@ -24,7 +24,7 @@ if (!empty($_POST["registro"])) {
             echo("El correo electrónico ya ha sido registrado. Intente iniciar sesión");
         } else {
 
-        $sql=$con->query("INSERT INTO registro(nomcom,email,numtel,pass,confirpass,genero,numdoc,tipdoc,barrio,rol)VALUES('$nombrec','$email','$numero','$hash','$hash','$genero','','$nu_documento','$documento','$barrio','$rol')");
+        $sql=$con->query("INSERT INTO registro(nomcom,email,numtel,pass,confirpass,genero,numdoc,tipdoc,barrio,rol)VALUES('$nombrec','$email','$numero','$hash','$hash','$genero','$nu_documento','$documento','$barrio','$rol')");
         header('location: ../index.php');
         }
     }
