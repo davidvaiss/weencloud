@@ -15,7 +15,7 @@
     <header>
         <div class="menu container">
             <img src="IMG/clouds (1).png" alt="">
-            <a href="#" class="logo">Ween Cloud </a>
+            <a href="#" class="logo">WeenCloud </a>
             <input type="checkbox" id="menu">
             <label for="menu">
                 <img src="IMG/menu-btn.png" class="menu-icono" alt="">
@@ -24,7 +24,7 @@
                 <ul>
                    
                     <li> <a href="registro/registro2.php">Registrarse</a></li>
-                    <li> <a href="Login/index.php">Iniciar sesion</a></li>
+                    <li> <a href="Login/index.php">Iniciar sesión</a></li>
                     <li> <a href="#servicios">Servicios</a></li>
                     <li> <a href="#contacto">Contactanos</a></li>
 
