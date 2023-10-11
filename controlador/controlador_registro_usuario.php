@@ -12,7 +12,7 @@ if (!empty($_POST["registro"])) {
         $hash= password_hash($contraseña, PASSWORD_DEFAULT, [50]);
         $nu_documento=$_POST["nu_documento"];
         $conficontraseña=$_POST['conficontraseña'];
-        $hash= password_hash($conficontraseña, PASSWORD_DEFAULT[50]);
+        $hash= password_hash($conficontraseña, PASSWORD_DEFAULT,[50]);
         $barrio=$_POST['barrio'];
         $rol=$_POST['rol'];
         $genero=$_POST['genero'];
