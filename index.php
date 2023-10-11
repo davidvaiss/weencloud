@@ -168,7 +168,13 @@
                     <!-- <h3>Logo</h3> -->
                     <img src="IMG/astronaut.png" alt="">
                     <div class="enlace">
+<<<<<<< HEAD
                         <li> <a href="https://www.instagram.com/weencloud/">Instagram</a></li>
+=======
+                        <li> <a href="#">Instagram</a></li>
+                        <li> <a href="#">Facebook</a></li>
+
+>>>>>>> 04f8d23a3aad591a3125084eaaaf455f94c87432
                         
                     </div>
                 </div>
