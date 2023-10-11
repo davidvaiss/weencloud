@@ -170,8 +170,6 @@
                     <div class="enlace">
                         <li> <a href="#">Instagram</a></li>
                         <li> <a href="#">Facebook</a></li>
-
-                        
                     </div>
                 </div>
             </div>
