@@ -47,18 +47,18 @@
         </div>
     </header>
 
-    <main class="services container">
-        <div class="service">
+    <main class="services">
+        <!-- <div class="service">
             <img src="IMG/icon1.svg" alt="">
             <h3>Publica tu trabajo</h3>
             <p>
                 Publica tu oferta en Ween Cloud, serán tus 5 minutos de hoy mejor invertidos
             </p>
             <a href="PBTRAB/index1.php" class="btn-3">Ingresar</a>
-        </div>
+        </div> -->
         <div class="service">
             <img src="IMG/icon2.svg" alt="">
-            <h3>Busca tu trabajo</h3>
+            <h3>Publica/Busca trabajo</h3>
             <p>
                 Si buscas trabajo ¡Ween Cloud es tu mejor aliado!
             </p>
