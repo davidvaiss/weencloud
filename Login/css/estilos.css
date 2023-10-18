@@ -29,7 +29,7 @@ body{
 }
 
 .imagen-formulario{
-    background-image: url(../IMG/sisas.png);
+    background-image: url();
     background-position: Center center;
     background-size: cover;
     height: 200px;
