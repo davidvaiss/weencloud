@@ -82,7 +82,7 @@
 
     <section class="porfolios container" id="servicios">
 
-        <h2>Nuestros Servicios</h2>
+        <h2>Nuestro Servicio</h2>
 
         <div class="porfolio">
 
