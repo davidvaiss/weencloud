@@ -62,7 +62,7 @@
             <p>
                 Si buscas trabajo ¡Ween Cloud es tu mejor aliado!
             </p>
-            <a href="CRUD-WC/index.php" class="btn-3">Ingresar</a>
+            <a href="CRUD-WC/app/peliculas/index.php" class="btn-3">Ingresar</a>
         <!-- </div>
         <div class="service">
             <img src="IMG/icon3.svg" alt="">
