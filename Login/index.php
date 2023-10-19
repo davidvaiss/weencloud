@@ -12,7 +12,6 @@
 </head>
 
 <body>
-
   <div class="contenedor-formulario contenedor">
     <div class="imagen-formulario">
 
