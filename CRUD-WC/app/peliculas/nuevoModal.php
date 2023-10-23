@@ -13,8 +13,8 @@
             </div>
 
             <div class="mb-3">
-                 <label for="lugar_trab" class="form-label"> Lugar de Trabajo</label>
-                 <input type="text" name="lugar_trab" id="lugar_trab" value="" class=" form-control" required>
+                 <label for="numero" class="form-label"> Numero de contacto</label>
+                 <input type="text" name="numero" id="numero" value="" class=" form-control" required>
             </div>
 
             <div class="mb-3">
@@ -24,7 +24,7 @@
 
             <div class="mb-3">
                  <label for="salario" class="form-label">Salario</label>
-                 <input type="text" name="salario" id="salario" value="" class=" form-control" required>
+                 <input type="number" name="salario" id="salario" value="" class=" form-control" required step="50">
             </div>
 
             <div class="mb-3">

@@ -2,8 +2,7 @@
 
 require '../config/database.php';
 
-$sqlPeliculas = "SELECT p.id, p.nombre, p.descripcion, g.nombre AS genero FROM pelicula AS p
-INNER JOIN genero AS g ON p.id_genero=g.id";
+$sqlPeliculas = "SELECT * FROM pelicula";
 $peliculas = $conn->query($sqlPeliculas);
 
 ?>
@@ -39,7 +38,7 @@ $peliculas = $conn->query($sqlPeliculas);
                     <th>Nombre</th>
                     <th>Descripcion</th>
                     <th>Vacante</th>
-                    <th>Lugar de Trabajo</th>
+                    <th>Numero de contacto</th>
                     <th>Experiencia</th>
                     <th>Salario</th>
                     <th>Jornada</th>
@@ -48,19 +47,22 @@ $peliculas = $conn->query($sqlPeliculas);
 
             <tbody>
 
+
+
             <?php while ($row = $peliculas->fetch_assoc()) { ?>
                     <tr>
                         <td><?= $row['id']; ?></td>
                         <td><?= $row['nombre']; ?></td>
                         <td><?= $row['descripcion']; ?></td>
-                        <td><?= $row['genero']; ?></td>
-                        <td><?= $row['lu_trabajo']; ?></td>
+                        <td><?= $row['id_genero']; ?></td>
+                        <td><?= $row['nu_contacto']; ?></td>
                         <td><?= $row['exp']; ?></td>
-                        <td><?= $row['sal']; ?></td>
+                        <td><?php echo number_format($row['sal']); ?></td>
                         <td><?= $row['jor']; ?></td>
                         
                  </tr>
-                 <?php } ?>
+                 <?php } 
+                 ?>
             </tbody>
 
         </table>
