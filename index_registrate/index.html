@@ -11,12 +11,12 @@
     <title>Formulario de registro e inicio de sesion</title>
 </head>
 <body>
-    <div class="container-form">
+    <div class="container-form register">
         <div class="information">            
             <div class="info-childs">
                 <h2>Bienvenido</h2>
                 <p>Para Buscar O Solicitar Un Empleo Porfavor Inicia Sesion Con Tus Datos</p>
-                <input type="button" value="Inciar Sesion">
+                <input type="button" value="Inciar Sesion" id="sign-in">
             </div>
         </div>
          <div class="form-information">
@@ -31,7 +31,7 @@
                 <form class="form">
                     <label>
 
-                        <i class='bx bx-user' ></i>
+                        <i class='bx bx-user'></i>
                         <input type="text" placeholder="Nombre Completo">
                     </label>
                     <label>
@@ -49,5 +49,42 @@
             </div>
         </div>
     </div>
+
+<!-- DONDE SE VA A PEGAR TODO DE NUEVO -->
+
+<div class="container-form login hide">
+    <div class="information">            
+        <div class="info-childs">
+            <h2>¡¡Bienvenido Nuevamente!!</h2>
+            <p>Para Buscar O Solicitar Un Empleo Porfavor Inicia Sesion Con Tus Datos</p>
+            <input type="button" value="Registrarse" id="sign-up">
+        </div>
+    </div>
+     <div class="form-information">
+        <div class="fom-information-childs">
+            <h2>Iniciar Sesion</h2>
+            <div class="icons">
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-instagram' ></i>    
+            </div>
+            <p>Iniciar Sesion Con Una Cuenta</p>
+
+            <form class="form">
+                <label>
+
+                    <i class='bx bx-envelope' ></i>
+                    <input type="email" placeholder="Correo Electronico">
+                </label>
+                <label>
+                    
+                    <i class='bx bx-lock-alt'></i>
+                    <input type="password" placeholder="Contraseña">
+                </label>
+                <input type="submit" value="Iniciar Sesion">
+            </form>
+        </div>
+    </div>
+</div>
+    <script src="login.js"></script>
 </body>
 </html>
