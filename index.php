@@ -16,7 +16,6 @@
     <header>
         <div class="menu container">
             <!-- <img src="IMG/hero.svg"> -->
-            <a href="javascript: history.go(-1)">Volver atrás</a>
             <img src="IMG/clouds (1).png" alt="">
             <a href="#" class="logo">WeenCloud </a>
             <input type="checkbox" id="menu">
