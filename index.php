@@ -17,7 +17,7 @@
         <div class="menu container">
             <!-- <img src="IMG/hero.svg"> -->
             <img src="IMG/clouds (1).png" alt="">
-            <a href="#" class="logo">WeenCloud </a>
+            <a href="#" class="logo">ween Cloud </a>
             <input type="checkbox" id="menu">
             <label for="menu">
                 <img src="IMG/menu-btn.png" class="menu-icono" alt="">

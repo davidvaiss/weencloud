@@ -37,12 +37,12 @@ if (isset($_SESSION))
 
 
         <div class="input">
-         <label for="Email">Email</label> 
+         <label for="Email"></label> 
          <input placeholder="Ingresa tu Email" name="email" type="text" id="Email">
         </div>
 
         <div class="input">
-         <label for="Contraseña">Contraseña</label> 
+         <label for="Contraseña"></label> 
          <input placeholder="ingresa tu contraseña" name="contraseña" type="password" id="Contraseña">
       </div>
          <!-- <div class="password-olvidada">
