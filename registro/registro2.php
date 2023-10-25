@@ -14,14 +14,14 @@
 
 </head>
 <body>
-    <div class="container">
+    <!-- <div class="container">
         <div class="title">Registrarse</div>
         <form action="../controlador/controlador_registro_usuario.php" style="display: flex; flex-wrap: wrap; justify-content: space-between; " method="POST">
         <div class="user-details">
          <div class="input-box">
           <span class="details">Nombre completo</span>  
           <input type="text" name="nombrec" placeholder="Introduzca su nombre" required>
-        </div>
+        </div> -->
 
         <div class="input-box">
             <span class="details">Email </span>  

@@ -1,5 +1,5 @@
 *{
-    padding: 0;
+    padding: 10;
     margin: 0%;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
@@ -10,7 +10,8 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url(../IMG/imagen67.avif);
+    /* background-image: url(../IMG/imagen67.avif); */
+    background-color: #9191bd;
     background-size: cover;
 }
 
@@ -29,7 +30,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    background-color: #c7eeef; 
+    background-color: #6efaff; 
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -72,7 +73,7 @@ body {
     align-items: center ;
     justify-content: center ;
     width: 60%;
-    text-align: center;
+    text-align:center;
     background-color:#f8f8f8;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;

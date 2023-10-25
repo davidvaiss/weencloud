@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <a href="javascript: history.go(-1)">Volver atrás</a>
     <title>Ween Cloud</title>
     <link rel="stylesheet" href="estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,6 +16,7 @@
     <header>
         <div class="menu container">
             <!-- <img src="IMG/hero.svg"> -->
+            <a href="javascript: history.go(-1)">Volver atrás</a>
             <img src="IMG/clouds (1).png" alt="">
             <a href="#" class="logo">WeenCloud </a>
             <input type="checkbox" id="menu">
@@ -23,7 +25,11 @@
             </label>
             <nav class="navbar">
                 <ul>
-                   
+                    <li>
+                        <a href="index_registrate/index.html"></a>
+                    </li>
+                </ul>
+                <ul>
                     <li> <a href="registro/registro2.php">Registrarse</a></li>
                     <li> <a href="Login/index.php">Iniciar sesión</a></li>
                     <li> <a href="#servicios">Servicios</a></li>
