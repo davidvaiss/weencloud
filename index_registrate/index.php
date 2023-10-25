@@ -23,9 +23,8 @@
             <div class="form-information-childs">
                 <h2>Crear Cuenta</h2>
                 <div class="icons">
-                    <i class ='bx bxl-facebook' > </i>
-                    <i class ='bx bxl-instagram' > </i>    
-                <!-- <p>Puedes Contactarnos En</p> -->
+                   <a href="http://www.facebook.com/profile.php?id=61552005853511"> <i class  ='bx bxl-facebook'> </a></i>
+                   <a href="http://www.instagram.com/weencloud/"> <i class ='bx bxl-instagram' ></a></i>    
                 </div>
                 <form class="form">
                     <label>
@@ -60,7 +59,7 @@
 
                         
 
-                    <input type="submit" value="Registrate">
+                     <input type="submit" value="Registrate">
                 </form>
             </div>
         </div>
@@ -80,9 +79,8 @@
         <div class="form-information-childs">
             <h2>Iniciar Sesion</h2>
             <div class="icons">
-                <i class ='bx bxl-facebook' > </i>
-                <i class ='bx bxl-instagram' > </i>    
-            <!-- <p>Puedes Contactarnos En</p> -->
+                <a href="http://www.facebook.com/profile.php?id=61552005853511"> <i class  ='bx bxl-facebook'> </a></i>
+                 <a href="http://www.instagram.com/weencloud/"> <i class ='bx bxl-instagram' ></a></i>      
             </div>
             <form class="form">
                 <label>
